@@ -193,7 +193,7 @@ if (is_admin()) {
 
 function paytm_admin_menu() {
 	add_menu_page('Paytm Settings', 'Paytm Settings', 'manage_options', 'paytm_options_page', 'paytm_options_page');
-	add_menu_page('Paytm Paymet Details', 'Paytm Paymet Details', 'manage_options', 'wp_paytm_donation', 'wp_paytm_donation_listings_page');
+	add_menu_page('Paytm Payment Details', 'Paytm Payment Details', 'manage_options', 'wp_paytm_donation', 'wp_paytm_donation_listings_page');
 	require_once(dirname(__FILE__) . '/paytm-donation-listings.php');
 }
 
